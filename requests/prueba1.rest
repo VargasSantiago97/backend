@@ -1,0 +1,19 @@
+GET http://localhost:3000/ 
+
+###
+GET http://localhost:3000/bookNuevaAPI
+
+###
+GET http://localhost:3000/bookNuevaAPI2
+
+###
+GET http://localhost:3000/books
+
+###
+GET http://localhost:3000/books/2
+
+###
+GET http://localhost:3000/otrasRutas
+
+###
+GET http://localhost:3000/otrasRutas/2
