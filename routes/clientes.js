@@ -4,25 +4,27 @@ const ConsultasDB = require('../db/consultas');
 const consultasDB = new ConsultasDB();
 
 
+
 var router = express.Router();
 
 router.get("/", (req, res) => {
-    res.send ("OTRAS RUTAS Hello worlddddd...");
+    res.send ("API Clientes...");
 });
 
 
-router.get("/2", (req, res) => {
+router.get("/getAll", (req, res) => {
     function aT(d){
         res.json(d);
-      }
-      consultasDB.obtenerLibro(aT, 2);
+    }
+    consultasDB.obtenerTodosClientes(aT);
 });
 
-router.get("/3", (req, res) => {
+router.get("/getId/:idd", (req, res) => {
     function aT(d){
         res.json(d);
-      }
-      consultasDB.obtenerLibroOtro(aT, 3);
+    }
+    let idd = req.params.idd;
+    consultasDB.obtenerIdClientes(aT, idd);
 });
 
 module.exports = router;

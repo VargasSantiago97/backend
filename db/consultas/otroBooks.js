@@ -6,11 +6,11 @@ class Books {
 
     obtenerTodosLosLibros(aT){
         let sql = "SELECT * FROM Books";
-        db.consulta(aT, sql);
+        return db.consulta(aT, sql);
     }
     obtenerLibro(aT, idd){
         let sql = `SELECT * FROM Books WHERE Book_ID = ${idd}`;
-        db.consulta(aT, sql);
+        return db.consulta(aT, sql);
     }
 }
 

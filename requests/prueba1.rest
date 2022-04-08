@@ -1,19 +1,28 @@
-GET http://localhost:3000/ 
+GET http://localhost:3000/api
 
 ###
-GET http://localhost:3000/bookNuevaAPI
+GET http://localhost:3000/api/bookNuevaAPI
 
 ###
-GET http://localhost:3000/bookNuevaAPI2
+GET http://localhost:3000/api/bookNuevaAPI2
 
 ###
-GET http://localhost:3000/books
+GET http://localhost:3000/api/cliente
 
 ###
-GET http://localhost:3000/books/2
+GET http://localhost:3000/api/cliente/getAll
 
 ###
-GET http://localhost:3000/otrasRutas
+GET http://localhost:3000/api/cliente/2
 
 ###
-GET http://localhost:3000/otrasRutas/2
+GET http://localhost:3000/api/cliente/3
+
+###
+GET http://localhost:3000/api/otrasRutas
+
+###
+GET http://localhost:3000/api/otrasRutas/2
+
+###
+GET http://localhost:3000/api/otrasRutas/3
