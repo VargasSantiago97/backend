@@ -1,4 +1,4 @@
-const DB = require('../connect')
+const DB = require('../connect/connect')
 const db = new DB();
 
 class Clientes {

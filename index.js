@@ -38,5 +38,5 @@ app.use('/api/clientes', clientes);
 var cliente = require('./routes/cliente');
 app.use('/api/cliente', cliente);
 
-var otrasRutas = require('./routes/otrasRutas');
-app.use('/api/otrasRutas', otrasRutas);
+var data = require('./routes/data');
+app.use('/api', data);

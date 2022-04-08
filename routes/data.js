@@ -7,9 +7,8 @@ const consultasDB = new ConsultasDB();
 var router = express.Router();
 
 router.get("/", (req, res) => {
-    res.send ("OTRAS RUTAS Hello worlddddd...");
+    res.send ("A.P.I. GENERAL DEL SISTEMA.");
 });
-
 
 router.get("/2", (req, res) => {
     function aT(d){

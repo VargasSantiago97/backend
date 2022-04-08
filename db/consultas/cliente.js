@@ -1,4 +1,4 @@
-const DBCliente = require('../connectCliente')
+const DBCliente = require('../connect/connectCliente')
 
 
 class Cliente {
